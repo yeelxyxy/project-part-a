@@ -1,0 +1,87 @@
+.logo{
+    height: 320px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.search{
+   margin-top: 20px;
+    text-align: right;
+    font-size: large;
+    float: right;
+    margin-right: 30px;
+    color: white;
+}
+
+ul#horizontal li{
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+ul#horizontal li a{
+    color: white;
+}
+ul#horizontal-nav{
+    text-align: left;
+    background-color: #333333;
+}
+
+ul#horizontal-nav li{
+    display: inline-block;
+    padding: 16px;
+    
+}
+ul#horizontal-nav li a{
+    display: block;
+  color: white;
+    padding: 16px;
+    
+}
+
+h1{
+    text-align:center;
+}
+
+.product{
+    height: 100%;
+    width: 100%;
+}
+
+.product-list {
+	height: auto;
+	background-color: #fff;
+	width: 24em;
+	margin: 5em;
+    border-radius: 0.5em;
+    margin-right: 50px;
+    margin-left: 50px;
+   display: inline-block;
+}
+
+.filter{
+    height: auto;
+	background-color: #fff;
+	width: 24em;
+	margin: 5em;
+    border-radius: 0.5em;
+}
+
+h2{
+    text-align:center;
+}
+
+ul#end li{
+    background-color: #333333;
+    
+}
+
+
+ul#end li a{
+    display: block;
+  color: white;
+    padding: 10px;
+    
+}
