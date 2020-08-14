@@ -1,6 +1,6 @@
 .logo{
-    height: 320px;
-    width: 400px;
+    height: auto;
+    width: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -46,8 +46,8 @@ h1{
 }
 
 .product{
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
 
 .product-list {
@@ -61,27 +61,56 @@ h1{
    display: inline-block;
 }
 
+.navigation{
+    display: flex;
+    justify-content:  center;
+    list-style-type: none;
+}
+
 .filter{
-    height: auto;
+    
 	background-color: #fff;
 	width: 24em;
 	margin: 5em;
     border-radius: 0.5em;
+    display: flex;
 }
 
 h2{
     text-align:center;
 }
 
-ul#end li{
-    background-color: #333333;
-    
-}
-
 
 ul#end li a{
-    display: block;
-  color: white;
+    background-color: #333333;
+    display: flex;
+    color: white;
     padding: 10px;
+    flex-direction: row;
+    
     
 }
+
+
+@media screen and (min-width: 320px){
+    main{
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 480px){
+    body{
+        font-size: 1.2em;
+    }
+    main{
+        width: 440px;
+    }
+}
+
+@media screen and (min-width: 639px){
+    main{
+        width: 600px;
+        
+    }
+}
+

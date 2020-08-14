@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Remember to update the values in [square braces] above -->
+    <link rel="icon" href="img/noun_Toy.png" type="image/gif">
+
   </head>
   <body>
     <header>
-      <!-- Site logo, replace with your own -->
       <a href="index.html"><img class="logo" src="img/noun_Toy.png" alt="webpage logo"></a>
 
         <!-- Additional nav links -->
-
+<nav>
         <ul id="horizontal">
           <li><a href="#"><span class="material-icons">favorite_border</span></a></li>
           <li><a href="#"><span class="material-icons">shopping_cart</span></a></li>
@@ -38,7 +38,7 @@
           <li><a href="#">Deals</a></li>
           
         </ul>
-     
+      </nav>
 
     </header>
 
@@ -57,6 +57,7 @@
               <option value="newest">Newest releases</option>
             </select>
           </fieldset>
+
           <fieldset>
             <legend>Colour</legend>
             <ul>
@@ -67,6 +68,7 @@
               <li><input type="checkbox" name="colour" value="blue" id="blue"> <label for="blue">Blue</label></li>
             </ul>
           </fieldset>
+
           <fieldset>
             <legend>Sizes</legend>
             <ol>
@@ -77,6 +79,7 @@
               <li><input type="checkbox" name="size" value="xl" id="xl"> <label for="xl">XL</label></li>
             </ol>
           </fieldset>
+
           <fieldset>
             <legend>Ratings (above)</legend>
             <ol>
@@ -287,8 +290,10 @@
           </form>
         </article>
       </section>
+    </main>
 
-      <section role="navigation" aria-label="Pagination">
+
+      <div class="navigation">
         <p>1-5 of 23 products found</p>
         <ol>
           <li><a href="#" aria-label="Current Page, Page 1" aria-current="true">1</a></li>
@@ -297,23 +302,20 @@
           <li><a href="#" aria-label="Page 4">4</a></li>
           <li><a href="#" aria-label="Page 5">5</a></li>
         </ol>
-      </section>
-    </main>
-
+      </div>
+    
     <footer>
-      <nav aria-label="Legal"></nav>
-      <p>&copy; Copyright, 1991.</p>
         <ul id="end">
           <li><a href="#">Terms of Use</a></li>
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Accessibility Policy</a></li>
-        </ul>
-      </nav>
-      <ul id="end">
-        <li><a href="#"><span class="material-icons">face</span> Facebook</a></li>
-        <li><a href="#"><span class="material-icons">camera_alt</span> Instagram</a></li>
-        <li><a href="#"><span class="material-icons">alternate_email</span> Twitter</a></li>
-      </ul>
+          <li><a href="#"><span class="material-icons">face</span> Facebook</a></li>
+         <li><a href="#"><span class="material-icons">camera_alt</span> Instagram</a></li>
+         <li><a href="#"><span class="material-icons">alternate_email</span> Twitter</a></li>
+       </ul>
+      <nav aria-label="Legal">
+      <p>&copy; Copyright, 1991.</p>
+     </nav>
     </footer>
 
   </body>
